@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodToDelegate.Ninject", "MethodToDelegate.Ninject\MethodToDelegate.Ninject.csproj", "{726AD2E3-C533-4DD9-99FF-746C478D845C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodToDelegate.Ninject.Test", "MethodToDelegate.Ninject.Test\MethodToDelegate.Ninject.Test.csproj", "{A61E9284-7725-422D-AF97-BE2FC2C0A8E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{726AD2E3-C533-4DD9-99FF-746C478D845C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726AD2E3-C533-4DD9-99FF-746C478D845C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726AD2E3-C533-4DD9-99FF-746C478D845C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726AD2E3-C533-4DD9-99FF-746C478D845C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61E9284-7725-422D-AF97-BE2FC2C0A8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61E9284-7725-422D-AF97-BE2FC2C0A8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61E9284-7725-422D-AF97-BE2FC2C0A8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61E9284-7725-422D-AF97-BE2FC2C0A8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
