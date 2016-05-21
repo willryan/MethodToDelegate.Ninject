@@ -4,7 +4,7 @@ using System.Linq;
 using Ninject;
 using NUnit.Framework;
 
-namespace MethodToDelegate.Ninject.Test
+namespace MethodToDelegate.Ninject.Test.ReturnDelegate
 {
     [TestFixture]
     public class DelegateGenerationTest
@@ -18,8 +18,10 @@ namespace MethodToDelegate.Ninject.Test
             var kernel = new StandardKernel();
             kernel.Load(new DelegateModule());
             // vanilla
-            DelegateExample.Pythag vanillaPythag = (x, y) => DelegateExample.Pythagr(DelegateExample.Addr, DelegateExample.Multr, DelegateExample.Sqrtr, x, y);
-            _vanilla = (x, y) => DelegateExample.PythagD(vanillaPythag, DelegateExample.DoubleToStringr, x, y);
+            var vanillaPythag = DelegateExample.Pythagr(
+                DelegateExample.Addr(), DelegateExample.Multr(), 
+                DelegateExample.Sqrtr());
+            _vanilla = DelegateExample.PythagD(vanillaPythag, DelegateExample.DoubleToStringr());
             // Dependency generated
             _dependencyGenerated = kernel.Get<PythagDisplay>();
         }

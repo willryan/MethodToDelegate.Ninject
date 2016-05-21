@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using MethodToDelegate.PartialApplication;
 
-namespace MethodToDelegate.Ninject.Test
+namespace MethodToDelegate.Ninject.Test.PartialApplication
 {
     public delegate void RepeatedlyAddToList(List<string> list, string elem, int times);
 

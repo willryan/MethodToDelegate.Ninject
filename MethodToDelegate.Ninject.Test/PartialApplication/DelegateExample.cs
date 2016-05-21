@@ -1,6 +1,7 @@
 ﻿using System;
+using MethodToDelegate.PartialApplication;
 
-namespace MethodToDelegate.Ninject.Test
+namespace MethodToDelegate.Ninject.Test.PartialApplication
 {
     public delegate string PythagDisplay(double x, double y);
 

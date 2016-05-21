@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Ninject;
 using NUnit.Framework;
 
-namespace MethodToDelegate.Ninject.Test
+namespace MethodToDelegate.Ninject.Test.PartialApplication
 {
     [TestFixture]
     public class ActionDelegateGenerationTest

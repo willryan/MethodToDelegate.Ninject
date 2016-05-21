@@ -1,0 +1,153 @@
+{
+  "locked": false,
+  "version": 1,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "MethodToDelegate/0.6.0": {
+        "compile": {
+          "lib/net46/MethodToDelegate.dll": {}
+        },
+        "runtime": {
+          "lib/net46/MethodToDelegate.dll": {}
+        }
+      },
+      "Moq/4.2.1510.2205": {
+        "compile": {
+          "lib/net40/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Moq.dll": {}
+        }
+      },
+      "Ninject/3.2.2": {
+        "compile": {
+          "lib/net45-full/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/Ninject.dll": {}
+        }
+      },
+      "NUnit/3.2.0": {
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6/win": {
+      "MethodToDelegate/0.6.0": {
+        "compile": {
+          "lib/net46/MethodToDelegate.dll": {}
+        },
+        "runtime": {
+          "lib/net46/MethodToDelegate.dll": {}
+        }
+      },
+      "Moq/4.2.1510.2205": {
+        "compile": {
+          "lib/net40/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Moq.dll": {}
+        }
+      },
+      "Ninject/3.2.2": {
+        "compile": {
+          "lib/net45-full/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/Ninject.dll": {}
+        }
+      },
+      "NUnit/3.2.0": {
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MethodToDelegate/0.6.0": {
+      "sha512": "JL6Q5UdrROXLInSXr2OinCZz7rZzgruccnuqVIhsGZjIl49y4SaQIPnGkbNSmroaUb7uCoezR+RuJLBsktS9Ew==",
+      "type": "package",
+      "files": [
+        "MethodToDelegate.0.6.0.nupkg.sha512",
+        "MethodToDelegate.nuspec",
+        "lib/net46/MethodToDelegate.dll"
+      ]
+    },
+    "Moq/4.2.1510.2205": {
+      "sha512": "nqMoHSP5f04/kyKbRUjGgzqtIb5LUUs0H6llHOkQJ5Takx4Ezr2H+59pkIgxkmpbHAcGmc/KsyRZUs1ehnPYag==",
+      "type": "package",
+      "files": [
+        "Moq.4.2.1510.2205.nupkg.sha512",
+        "Moq.nuspec",
+        "lib/net35/Moq.dll",
+        "lib/net35/Moq.xml",
+        "lib/net40/Moq.dll",
+        "lib/net40/Moq.xml",
+        "lib/sl5/Moq.Silverlight.dll",
+        "lib/sl5/Moq.Silverlight.xml"
+      ]
+    },
+    "Ninject/3.2.2": {
+      "sha512": "vDyKaDZ1RgmPxD87u3om3La34r4RHBZfap3tCsJtUbSGkIWjQJ8La1s61BR/C0LgO1+3xGEC6UfI7D594MNl5Q==",
+      "type": "package",
+      "files": [
+        "Ninject.3.2.2.nupkg.sha512",
+        "Ninject.nuspec",
+        "lib/net35/Ninject.dll",
+        "lib/net35/Ninject.xml",
+        "lib/net40/Ninject.dll",
+        "lib/net40/Ninject.xml",
+        "lib/net45-full/Ninject.dll",
+        "lib/net45-full/Ninject.xml",
+        "lib/sl2/Ninject.dll",
+        "lib/sl2/Ninject.xml",
+        "lib/sl3-wp/Ninject.dll",
+        "lib/sl3-wp/Ninject.xml",
+        "lib/sl3/Ninject.dll",
+        "lib/sl3/Ninject.xml",
+        "lib/sl4-windowsphone71/Ninject.dll",
+        "lib/sl4-windowsphone71/Ninject.xml",
+        "lib/sl4/Ninject.dll",
+        "lib/sl4/Ninject.xml",
+        "lib/sl5/Ninject.dll",
+        "lib/sl5/Ninject.xml"
+      ]
+    },
+    "NUnit/3.2.0": {
+      "sha512": "kJf/lxyi7AAW5B/2Vkn9lyAvqJlmAEVABAu3V/nvwmZFQxiaCq9mJt81VbhK13QJPc1jnyjh5D5mHeL1ivQJLA==",
+      "type": "package",
+      "files": [
+        "CHANGES.txt",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "NUnit.3.2.0.nupkg.sha512",
+        "NUnit.nuspec",
+        "lib/dotnet/nunit.framework.dll",
+        "lib/dotnet/nunit.framework.xml",
+        "lib/net20/nunit.framework.dll",
+        "lib/net20/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.xml",
+        "lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.dll",
+        "lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Moq >= 4.2.1510.2205",
+      "NUnit >= 3.2.0"
+    ],
+    ".NETFramework,Version=v4.6": []
+  }
+}

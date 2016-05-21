@@ -1,0 +1,12 @@
+﻿{
+  "dependencies": {
+    "MethodToDelegate": "0.6.0.0",
+    "Ninject": "3.2.2.0"
+  },
+  "frameworks": {
+    "net46": { }
+  },
+  "runtimes": {
+    "win": { }
+  }
+}
